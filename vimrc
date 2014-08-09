@@ -18,3 +18,8 @@ filetype plugin indent on
 " https://github.com/nvie/vim-flake8
 " pip install flake8
 
+" https://github.com/scrooloose/nerdtree.git
+autocmd vimenter * NERDTree
+" Opens nerd tree even if no files were specified.
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
