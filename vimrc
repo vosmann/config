@@ -20,6 +20,8 @@ filetype plugin indent on
 
 " https://github.com/scrooloose/nerdtree.git
 autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p " Focus on editor after opening file (instead of the tree).
+
 " Close vi if nerd tree is the last buffer left
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Opens nerd tree even if no files were specified.
