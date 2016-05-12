@@ -8,5 +8,5 @@
   ci = commit
   br = branch
   co = checkout
-  lol = log --graph --oneline --decorate
+  lg = log --graph --oneline --decorate
 
