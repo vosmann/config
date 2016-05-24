@@ -10,3 +10,7 @@
   co = checkout
   lg = log --graph --oneline --decorate
 
+[diff]
+    tool = meld
+[merge]
+    tool = meld
