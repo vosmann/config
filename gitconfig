@@ -14,3 +14,10 @@
     tool = meld
 [merge]
     tool = meld
+
+[remote "bitbucket"]
+	url = git@bitbucket.org:xxx
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[remote "github"]
+	url = git@github.com:xxx
+	fetch = +refs/heads/*:refs/remotes/github/*
