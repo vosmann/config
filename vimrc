@@ -9,6 +9,9 @@ set softtabstop=4 " Insert/remove four spaces when hitting a tab or backspace.
 set shiftround    " Round indent to multiple of 'shiftwidth'.
 set autoindent    " Align the indent of a new line with the indent of the previous line.
 
+" install fuzzyfinder
+" http://www.vim.org/scripts/script.php?script_id=1984
+
 
 " https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
