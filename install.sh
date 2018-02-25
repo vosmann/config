@@ -1,7 +1,8 @@
 sudo apt-get update
 
 # tools
-sudo apt-get -y install ack-grep
+sudo apt-get -y install silversearcher-ag # faster than ack-grep
+sudo apt-get -y install cloc # lines of code
 sudo apt-get -y install tree
 sudo apt-get -y install wget
 sudo apt-get -y install curl
