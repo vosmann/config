@@ -8,7 +8,7 @@
   ci = commit
   br = branch
   co = checkout
-  lg = log --graph --oneline --decorate
+  lg = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)(%ci)%Creset %C(magenta)(%cr)%Creset %C(bold blue)<%an>%Creset -%C(yellow)%d%Creset %s' --abbrev-commit
 
 [diff]
     tool = meld
